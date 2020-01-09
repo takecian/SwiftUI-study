@@ -15,6 +15,7 @@
 		64414AD32394E0A600E5C16F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 64414AD12394E0A600E5C16F /* LaunchScreen.storyboard */; };
 		64414ADE2394E0A600E5C16F /* SwiftUI_studyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64414ADD2394E0A600E5C16F /* SwiftUI_studyTests.swift */; };
 		64414AE92394E0A600E5C16F /* SwiftUI_studyUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64414AE82394E0A600E5C16F /* SwiftUI_studyUITests.swift */; };
+		64F1882C23C72D1D0052BC56 /* MyImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64F1882B23C72D1D0052BC56 /* MyImageView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		64414AE42394E0A600E5C16F /* SwiftUI-studyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "SwiftUI-studyUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		64414AE82394E0A600E5C16F /* SwiftUI_studyUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUI_studyUITests.swift; sourceTree = "<group>"; };
 		64414AEA2394E0A600E5C16F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		64F1882B23C72D1D0052BC56 /* MyImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyImageView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +108,7 @@
 				64414AD12394E0A600E5C16F /* LaunchScreen.storyboard */,
 				64414AD42394E0A600E5C16F /* Info.plist */,
 				64414ACE2394E0A600E5C16F /* Preview Content */,
+				64F1882B23C72D1D0052BC56 /* MyImageView.swift */,
 			);
 			path = "SwiftUI-study";
 			sourceTree = "<group>";
@@ -267,6 +270,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				64F1882C23C72D1D0052BC56 /* MyImageView.swift in Sources */,
 				64414AC72394E0A200E5C16F /* AppDelegate.swift in Sources */,
 				64414AC92394E0A200E5C16F /* SceneDelegate.swift in Sources */,
 				64414ACB2394E0A200E5C16F /* ContentView.swift in Sources */,

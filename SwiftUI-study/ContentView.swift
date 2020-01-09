@@ -30,8 +30,14 @@ struct ContentView: View {
                     Rectangle().foregroundColor(Color(red: rGuess, green: gGuess, blue: bGuess, opacity: 1.0))
                     HStack {
                         Text("R: xxx")
+                            .fontWeight(.light)
+                            .foregroundColor(Color.orange)
                         Text("G: xxx")
+                            .font(.headline)
+                        Spacer(minLength: 0)
                         Text("B: xxx")
+                            .font(.title)
+                            .foregroundColor(.blue)
                     }
                 }
             }
